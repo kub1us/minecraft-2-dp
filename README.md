@@ -1,13 +1,13 @@
-### Информация и справочники
+### Information and handbook
 
-| Ресурс | Ссылка |
+| Resource | Link |
 |--------|--------|
-| Сообщить об ошибки или предложить идею | [https://github.com/iFB24M/minecraft2/issues](https://github.com/iFB24M/minecraft2/issues)  
-| Википедия | [https://github.com/iFB24M/minecraft2/wiki](https://github.com/iFB24M/minecraft2/wiki) |
+| Report a bug or suggest an idea | [https://github.com/kub1us/minecraft-2-dp/pulls](https://github.com/kub1us/minecraft-2-dp/pulls)  
+| Wikipedia | [https://github.com/kub1us/minecraft-2-dp/wiki](https://github.com/kub1us/minecraft-2-dp/wiki) |
 
-### Ресурсы
+### Resources
 
-| Ресурс | Ссылка |
+| Resource | Link |
 |--------|--------|
-| Ресурспак | [https://github.com/iFB24M/minecraft2r/releases](https://github.com/iFB24M/minecraft2r/releases)  
-| Датапак | [https://github.com/iFB24M/minecraft2/releases](https://github.com/iFB24M/minecraft2/releases) |
+| Resource-pack | [https://github.com/kub1us/minecraft-2-rp/releases](https://github.com/kub1us/minecraft-2-rp/releases)  
+| Data-pack | [https://github.com/kub1us/minecraft-2-dp/releases](https://github.com/kub1us/minecraft-2-dp/releases) |
