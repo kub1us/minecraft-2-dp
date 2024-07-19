@@ -1,4 +1,4 @@
-### Information and handbook
+### Information and handbooks
 
 | Resource | Link |
 |--------|--------|
