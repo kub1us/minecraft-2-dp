@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "###",
+        "RFR",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "R": {
+            "item": "minecraft:rabbit_foot"
+        },
+        "F": {
+            "item": "minecraft:feather"
+        }
+    },
+    "result": {
+        "id": "minecraft:turtle_scute",
+        "components": {
+            "minecraft:item_name": "{\"translate\":\"mc2.amulet_of_jump_boost\"}",
+            "minecraft:custom_data": {"mc2":{"amulet_of_jump_boost":true}},
+            "minecraft:rarity": "uncommon",
+            "minecraft:custom_model_data": 30002,
+            "minecraft:max_stack_size": 1,
+            "minecraft:max_damage": 131,
+            "minecraft:damage": 0
+        }
+    }
+}

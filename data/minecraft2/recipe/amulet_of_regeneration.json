@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "###",
+        "NGN",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:diamond"
+        },
+        "N": {
+            "item": "minecraft:nether_wart"
+        },
+        "G": {
+            "item": "minecraft:ghast_tear"
+        }
+    },
+    "result": {
+        "id": "minecraft:turtle_scute",
+        "components": {
+            "minecraft:item_name": "{\"translate\":\"mc2.amulet_of_regeneration\"}",
+            "minecraft:custom_data": {"mc2":{"amulet_of_regeneration":true}},
+            "minecraft:rarity": "uncommon",
+            "minecraft:custom_model_data": 30004,
+            "minecraft:max_stack_size": 1,
+            "minecraft:max_damage": 131,
+            "minecraft:damage": 0
+        }
+    }
+}
