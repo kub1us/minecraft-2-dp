@@ -1,0 +1,36 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "# #",
+        "D D",
+        "LDR"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:iron_block"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        },
+        "L": {
+            "item": "minecraft:lapis_block"
+        },
+        "R": {
+            "item": "minecraft:redstone_block"
+        }
+    },
+    "result": {
+        "id": "minecraft:written_book",
+        "components": {
+            "minecraft:item_name": "{\"translate\":\"mc2.mob_magnet\"}",
+            "minecraft:custom_data": {"mc2":{"mob_magnet":true}},
+            "minecraft:enchantment_glint_override":false,
+            "minecraft:rarity": "rare",
+            "minecraft:custom_model_data": 30009,
+            "minecraft:max_stack_size": 1,
+            "minecraft:max_damage": 250,
+            "minecraft:damage": 0
+        }
+    }
+}

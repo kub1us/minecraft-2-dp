@@ -6,3 +6,7 @@ give @s minecraft:turtle_scute[minecraft:item_name='{"translate":"mc2.amulet_of_
 give @s minecraft:turtle_scute[minecraft:item_name='{"translate":"mc2.amulet_of_speed"}',minecraft:custom_data={mc2:{"amulet_of_speed":true}},minecraft:rarity=uncommon,minecraft:custom_model_data=30006,minecraft:max_stack_size=1,minecraft:max_damage=131,minecraft:damage=0]
 give @s minecraft:turtle_scute[minecraft:item_name='{"translate":"mc2.amulet_of_strength"}',minecraft:custom_data={mc2:{"amulet_of_strength":true}},minecraft:rarity=uncommon,minecraft:custom_model_data=30007,minecraft:max_stack_size=1,minecraft:max_damage=131,minecraft:damage=0]
 give @s minecraft:turtle_scute[minecraft:item_name='{"translate":"mc2.amulet_of_water_breathing"}',minecraft:custom_data={mc2:{"amulet_of_water_breathing":true}},minecraft:rarity=uncommon,minecraft:custom_model_data=30008,minecraft:max_stack_size=1,minecraft:max_damage=131,minecraft:damage=0]
+
+give @s minecraft:written_book[minecraft:item_name='{"translate":"mc2.mob_magnet"}',minecraft:custom_data={mc2:{"mob_magnet":true}},minecraft:enchantment_glint_override=false,minecraft:rarity=rare,minecraft:custom_model_data=30009,minecraft:max_stack_size=1,minecraft:max_damage=250,minecraft:damage=0]
+
+give @s minecraft:netherite_sword[minecraft:item_name='{"translate":"mc2.magic_wand"}',minecraft:custom_data={mc2:{"magic_wand":true}},minecraft:rarity=epic,minecraft:custom_model_data=30010,minecraft:max_damage=250,minecraft:damage=0]
