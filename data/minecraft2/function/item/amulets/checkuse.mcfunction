@@ -1,0 +1,12 @@
+execute as @a if items entity @s weapon.offhand *[minecraft:custom_data={mc2:{"amulet_of_fire_resistance":true}},!minecraft:damage=131] if score @s mc2.magic_energy matches 2.. at @s run function minecraft2:item/amulets/use {"effect":"fire_resistance","time":"15"}
+execute as @a if items entity @s weapon.offhand *[minecraft:custom_data={mc2:{"amulet_of_jump_boost":true}},!minecraft:damage=131] if score @s mc2.magic_energy matches 2.. at @s run function minecraft2:item/amulets/use {"effect":"jump_boost","time":"15"}
+execute as @a if items entity @s weapon.offhand *[minecraft:custom_data={mc2:{"amulet_of_night_vision":true}},!minecraft:damage=131] if score @s mc2.magic_energy matches 2.. at @s run function minecraft2:item/amulets/use {"effect":"night_vision","time":"15"}
+execute as @a if items entity @s weapon.offhand *[minecraft:custom_data={mc2:{"amulet_of_regeneration":true}},!minecraft:damage=131] if score @s mc2.magic_energy matches 2.. at @s run function minecraft2:item/amulets/use {"effect":"regeneration","time":"15"}
+execute as @a if items entity @s weapon.offhand *[minecraft:custom_data={mc2:{"amulet_of_resistance":true}},!minecraft:damage=131] if score @s mc2.magic_energy matches 2.. at @s run function minecraft2:item/amulets/use {"effect":"resistance","time":"15"}
+execute as @a if items entity @s weapon.offhand *[minecraft:custom_data={mc2:{"amulet_of_speed":true}},!minecraft:damage=131] if score @s mc2.magic_energy matches 2.. at @s run function minecraft2:item/amulets/use {"effect":"speed","time":"15"}
+execute as @a if items entity @s weapon.offhand *[minecraft:custom_data={mc2:{"amulet_of_strength":true}},!minecraft:damage=131] if score @s mc2.magic_energy matches 2.. at @s run function minecraft2:item/amulets/use {"effect":"strength","time":"15"}
+execute as @a if items entity @s weapon.offhand *[minecraft:custom_data={mc2:{"amulet_of_water_breathing":true}},!minecraft:damage=131] if score @s mc2.magic_energy matches 2.. at @s run function minecraft2:item/amulets/use {"effect":"water_breathing","time":"15"}
+
+execute as @a if items entity @s weapon.offhand *[minecraft:damage=131] if score @s mc2.magic_energy matches 2.. at @s run function minecraft2:item/amulets/break
+
+schedule function minecraft2:item/amulets/checkuse 15s

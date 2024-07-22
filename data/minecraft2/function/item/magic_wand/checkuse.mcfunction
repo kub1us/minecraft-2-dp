@@ -1,0 +1,4 @@
+execute as @a if items entity @s weapon.mainhand *[minecraft:custom_data={mc2:{"magic_wand":true}},!minecraft:damage=3062] if score @s mc2.damage matches 1.. if score @s mc2.magic_energy matches 10.. at @s run function minecraft2:item/magic_wand/use
+execute as @a[gamemode=!creative,gamemode=!spectator] if items entity @s weapon.mainhand *[minecraft:custom_data={mc2:{"magic_wand":true}},minecraft:damage=3062] if score @s mc2.damage matches 1.. if score @s mc2.magic_energy matches 10.. at @s run function minecraft2:item/magic_wand/break
+
+execute as @a if score @s mc2.damage matches 1.. at @s run scoreboard players reset @s mc2.damage
